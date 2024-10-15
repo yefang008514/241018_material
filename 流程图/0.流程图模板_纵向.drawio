@@ -1,0 +1,182 @@
+<mxfile host="65bd71144e">
+    <diagram id="fEJHFyZtxvhM98bzLiyZ" name="总流程图">
+        <mxGraphModel dx="841" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="lmuKViWLxnop410z5w3T-1" value="总流程图示例" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fontFamily=仿宋;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="10" width="720" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="lmuKViWLxnop410z5w3T-2" value="用户" style="swimlane;startSize=20;html=1;fontFamily=仿宋;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="lmuKViWLxnop410z5w3T-1">
+                    <mxGeometry y="20" width="240" height="420" as="geometry"/>
+                </mxCell>
+                <mxCell id="lmuKViWLxnop410z5w3T-4" style="edgeStyle=none;html=1;fontFamily=仿宋;" edge="1" parent="lmuKViWLxnop410z5w3T-2" source="lmuKViWLxnop410z5w3T-5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="120" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lmuKViWLxnop410z5w3T-5" value="商品浏览" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;align=center;fontFamily=仿宋;" vertex="1" parent="lmuKViWLxnop410z5w3T-2">
+                    <mxGeometry x="70" y="80" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="GoXXNMYH9QWUefiu-Tyi-5" value="支付" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;align=center;fontFamily=仿宋;" vertex="1" parent="lmuKViWLxnop410z5w3T-2">
+                    <mxGeometry x="70" y="190" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="lmuKViWLxnop410z5w3T-21" value="平台" style="swimlane;startSize=20;html=1;fontFamily=仿宋;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="lmuKViWLxnop410z5w3T-1">
+                    <mxGeometry x="240" y="20" width="240" height="420" as="geometry"/>
+                </mxCell>
+                <mxCell id="lmuKViWLxnop410z5w3T-22" value="上架商品" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;align=center;fontFamily=仿宋;" vertex="1" parent="lmuKViWLxnop410z5w3T-21">
+                    <mxGeometry x="70" y="80" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="GoXXNMYH9QWUefiu-Tyi-9" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="lmuKViWLxnop410z5w3T-21" source="GoXXNMYH9QWUefiu-Tyi-6" target="GoXXNMYH9QWUefiu-Tyi-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GoXXNMYH9QWUefiu-Tyi-6" value="生成订单" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;align=center;fontFamily=仿宋;" vertex="1" parent="lmuKViWLxnop410z5w3T-21">
+                    <mxGeometry x="70" y="190" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="GoXXNMYH9QWUefiu-Tyi-8" value="通知发货" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;align=center;fontFamily=仿宋;" vertex="1" parent="lmuKViWLxnop410z5w3T-21">
+                    <mxGeometry x="70" y="290" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="lmuKViWLxnop410z5w3T-37" value="商家" style="swimlane;startSize=20;html=1;fontFamily=仿宋;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="lmuKViWLxnop410z5w3T-1">
+                    <mxGeometry x="480" y="20" width="240" height="420" as="geometry"/>
+                </mxCell>
+                <mxCell id="lmuKViWLxnop410z5w3T-38" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=仿宋;" vertex="1" parent="lmuKViWLxnop410z5w3T-37">
+                    <mxGeometry x="70" y="80" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="GoXXNMYH9QWUefiu-Tyi-13" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="lmuKViWLxnop410z5w3T-37" source="GoXXNMYH9QWUefiu-Tyi-10" target="GoXXNMYH9QWUefiu-Tyi-11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GoXXNMYH9QWUefiu-Tyi-10" value="通知发货" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;align=center;fontFamily=仿宋;" vertex="1" parent="lmuKViWLxnop410z5w3T-37">
+                    <mxGeometry x="70" y="190" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="GoXXNMYH9QWUefiu-Tyi-11" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=仿宋;" vertex="1" parent="lmuKViWLxnop410z5w3T-37">
+                    <mxGeometry x="70" y="300" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="lmuKViWLxnop410z5w3T-53" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=仿宋;" edge="1" parent="lmuKViWLxnop410z5w3T-1" source="lmuKViWLxnop410z5w3T-38" target="lmuKViWLxnop410z5w3T-22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="lmuKViWLxnop410z5w3T-54" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=仿宋;" edge="1" parent="lmuKViWLxnop410z5w3T-1" source="lmuKViWLxnop410z5w3T-22" target="lmuKViWLxnop410z5w3T-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GoXXNMYH9QWUefiu-Tyi-7" style="edgeStyle=none;html=1;" edge="1" parent="lmuKViWLxnop410z5w3T-1" source="GoXXNMYH9QWUefiu-Tyi-5" target="GoXXNMYH9QWUefiu-Tyi-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GoXXNMYH9QWUefiu-Tyi-12" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lmuKViWLxnop410z5w3T-1" source="GoXXNMYH9QWUefiu-Tyi-8" target="GoXXNMYH9QWUefiu-Tyi-10">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="510" y="340"/>
+                            <mxPoint x="510" y="240"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="Z5sQnN88idRZ-MSKcD9D" name="子流程图or详细流程图">
+        <mxGraphModel dx="841" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="38" value="AABB循环流程图" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fontFamily=仿宋;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="10" width="720" height="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="用户" style="swimlane;startSize=20;html=1;fontFamily=仿宋;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="38" vertex="1">
+                    <mxGeometry y="20" width="240" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=仿宋;" parent="39" vertex="1">
+                    <mxGeometry x="60" y="80" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=仿宋;" parent="39" vertex="1">
+                    <mxGeometry x="70" y="390" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="支付平台" style="swimlane;startSize=20;html=1;fontFamily=仿宋;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="38" vertex="1">
+                    <mxGeometry x="240" y="20" width="240" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="流程名称" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=仿宋;" parent="40" vertex="1">
+                    <mxGeometry x="-170" y="290" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="单据" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontFamily=仿宋;" parent="40" vertex="1">
+                    <mxGeometry x="70" y="350" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="group" parent="40" vertex="1" connectable="0">
+                    <mxGeometry x="70" y="200" width="100" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="简单流程&lt;br&gt;可以直接简化表示" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=仿宋;" parent="40" vertex="1">
+                    <mxGeometry x="70" y="210" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=仿宋;" parent="40" source="51" target="53" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="流程名称" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=仿宋;" parent="40" vertex="1">
+                    <mxGeometry x="70" y="290" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="group" parent="40" vertex="1" connectable="0">
+                    <mxGeometry x="70" y="200" width="100" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="简单流程&lt;br&gt;可以直接简化表示" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=仿宋;" parent="40" vertex="1">
+                    <mxGeometry x="70" y="210" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="流程名称(可以不写流程负责人)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=仿宋;" parent="40" vertex="1">
+                    <mxGeometry x="70" y="290" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="NB0HXbdf6bZgIRwKQDy6-79" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="38" source="53" target="55">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="商家" style="swimlane;startSize=20;html=1;fontFamily=仿宋;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="38" vertex="1">
+                    <mxGeometry x="480" y="20" width="240" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="IUhDmdjwxMKpwM0tlbf7-79" value="简单流程&lt;br&gt;可以直接简化表示" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=仿宋;" vertex="1" parent="41">
+                    <mxGeometry x="80" y="210" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="IUhDmdjwxMKpwM0tlbf7-80" style="edgeStyle=none;html=1;" edge="1" parent="38" source="71" target="IUhDmdjwxMKpwM0tlbf7-79">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="IUhDmdjwxMKpwM0tlbf7-81" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="38" source="IUhDmdjwxMKpwM0tlbf7-79" target="72">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="610" y="340"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="330" y="70" width="100" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="group" parent="44" vertex="1" connectable="0">
+                    <mxGeometry width="100" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="流程名称" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=仿宋;" parent="45" vertex="1">
+                    <mxGeometry y="40" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="单据" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontFamily=仿宋;" parent="45" vertex="1">
+                    <mxGeometry y="100" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="流程负责人" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=仿宋;" parent="45" vertex="1">
+                    <mxGeometry width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=仿宋;" parent="1" source="44" target="50" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=仿宋;" parent="1" source="43" target="46" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="330" y="70" width="100" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="" style="group" parent="65" vertex="1" connectable="0">
+                    <mxGeometry width="100" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="流程名称" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=仿宋;" parent="66" vertex="1">
+                    <mxGeometry y="40" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="单据" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontFamily=仿宋;" parent="66" vertex="1">
+                    <mxGeometry y="100" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="流程负责人" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=仿宋;" parent="66" vertex="1">
+                    <mxGeometry width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=仿宋;" parent="1" source="65" target="71" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
